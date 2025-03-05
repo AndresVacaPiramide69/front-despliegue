@@ -45,7 +45,7 @@ export default function Sumas() {
       <button onClick={handleOnClick}>Sumar</button>
       </div>
         <ul>
-        {sumasFromDb.map((numero, index) => <li key={index}>{numero}</li>)}
+        {sumasFromDb.map((numero, index) => <li key={index}>{numero.resultado}</li>)}
         </ul>
     </>
   );
